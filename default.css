@@ -1,4 +1,36 @@
-#title {
-  color: blue;
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  position:relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+
+}
+
+h1 {
+  font-size: 13vw;
+  font-family: helvetica;
+  transform: translateY(9vw);
+  color: #ffffff;
+  letter-spacing: 0.45rem;
+  font-weight: 700;
+}
+
+.hero-image {
+  display: block;
+  overflow: hidden;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-size: cover;
+  margin-top: -5
 }
